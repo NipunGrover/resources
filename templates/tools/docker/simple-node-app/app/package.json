@@ -1,0 +1,11 @@
+{
+    "name": "basic-node-app",
+    "version": "1.0.0",
+    "description": "A basic Node.js application for Docker example",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {}
+  }
