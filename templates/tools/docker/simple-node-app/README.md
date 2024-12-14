@@ -31,6 +31,7 @@ The project is organized as follows:
 
 ## How to Use
 
-1. docker build -t simple-node-app .
-2. docker run 3000:3000 simple-node-app
-3. You should now be able to access your container at localhost:3000
+1. create a .env file in the app folder and add **`PORT=3000`**
+2. docker build -t simple-node-app .
+3. docker run 3000:3000 simple-node-app
+4. You should now be able to access your container at localhost:3000
