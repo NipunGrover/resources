@@ -2,6 +2,9 @@ import "./App.css";
 
 import { useState } from "react";
 
+const VITE_LOGO = `/images/vite.svg`;
+const REACT_LOGO = `/images/react.svg`;
+
 /**
  * The main application component.
  */
@@ -10,22 +13,23 @@ function App() {
   const [count, setCount] = useState(INITIAL_COUNT);
 
   return (
-    <>
+    <main>
       <div className="flex justify-center">
         <a href="https://vite.dev" rel="noreferrer" target="_blank">
-          <img alt="Vite logo" className="logo" src="/assets/vite.svg" />
+          <img alt="Vite logo" className="logo" src={VITE_LOGO} />
         </a>
         <a href="https://react.dev" rel="noreferrer" target="_blank">
           <img
             alt="React logo"
-            className="logo react"
-            src="/assets/react.svg"
+            className="logo react logo-spin"
+            src={REACT_LOGO}
           />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
+      <div className="flex flex-col items-center justify-center text-center">
+        <h1 className="text-3xl font-bold">Vite + React</h1>
         <button
+          className="my-2 rounded bg-gray-500 px-4 py-2 font-bold text-white hover:bg-gray-700"
           onClick={() => {
             const incrementValue = 1;
             setCount(prevCount => prevCount + incrementValue);
@@ -37,10 +41,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </main>
   );
 }
 
