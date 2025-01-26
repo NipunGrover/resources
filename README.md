@@ -4,7 +4,6 @@ Collection of resources including boilerplate setup for different kinds of proje
 ## Project Templates
 
 ### Languages
-- [JavaScript](templates/languages/javascript)
 - [TypeScript](templates/languages/typescript)
 
 ### Tools
