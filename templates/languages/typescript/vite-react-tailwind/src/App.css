@@ -9,7 +9,7 @@ main {
 main,
 header,
 footer {
-  @apply px-10;
+  @apply m-0 px-10;
 }
 
 @layer components {
