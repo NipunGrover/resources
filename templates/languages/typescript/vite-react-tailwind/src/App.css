@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 main {
   @apply flex size-full min-h-screen flex-col items-center justify-center;
