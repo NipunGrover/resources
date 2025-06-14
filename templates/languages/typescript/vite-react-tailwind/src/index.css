@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@config "./../tailwind.config.js";
 
 * {
   @apply m-0 box-border p-0;
