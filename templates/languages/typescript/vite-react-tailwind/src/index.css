@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --text-xs: 0.75rem;
@@ -33,8 +33,9 @@
   }
 }
 
+/*content + padding + border*/
 * {
-  @apply m-0 box-border p-0;
+  @apply box-border;
 }
 
 :root {
